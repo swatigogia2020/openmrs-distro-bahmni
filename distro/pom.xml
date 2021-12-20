@@ -362,7 +362,6 @@
           <name>bahmni-artifactory-release</name>
           <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
       </repository>
-      
 	     <repository>
 		<id>github</id>
 		<name>GitHub Maven Packages</name>
