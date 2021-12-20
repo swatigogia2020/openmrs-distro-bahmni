@@ -47,14 +47,14 @@
 			<name>OpenMRS Nexus Repository</name>
 			<url>https://mavenrepo.openmrs.org/nexus/content/repositories/public</url>
 		</repository>
-<!--         <repository>
+        <repository>
            <id>repo.mybahmni.org</id>
            <name>bahmni-artifactory-snapshots</name>
            <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
            <snapshots>
                <updatePolicy>always</updatePolicy>
            </snapshots>
-       </repository> -->
+       </repository>
       <repository>
           <id>repo.mybahmni.org-release</id>
           <name>bahmni-artifactory-release</name>
@@ -62,13 +62,13 @@
       </repository>
 	    
 	  
-	    <repository>
+<!-- 	    <repository>
 		<id>github</id>
 		<name>GitHub Maven Packages</name>
 		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
 		<releases><enabled>true</enabled></releases>
 		<snapshots><enabled>true</enabled></snapshots>
-	    </repository>
+	    </repository> -->
 
 	</repositories>
 
