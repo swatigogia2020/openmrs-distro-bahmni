@@ -54,12 +54,12 @@
            <snapshots>
                <updatePolicy>always</updatePolicy>
            </snapshots>
-       </repository>
+       </repository> -->
       <repository>
           <id>repo.mybahmni.org-release</id>
           <name>bahmni-artifactory-release</name>
           <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
-      </repository> -->
+      </repository>
 	    
 	  
 	    <repository>
