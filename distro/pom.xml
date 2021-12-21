@@ -362,13 +362,13 @@
           <name>bahmni-artifactory-release</name>
           <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
       </repository>
-<!-- 	     <repository>
+	     <repository>
 		<id>github</id>
 		<name>GitHub Maven Packages</name>
 		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
 		<releases><enabled>true</enabled></releases>
 		<snapshots><enabled>true</enabled></snapshots>
-	    </repository> -->
+	    </repository>
 	    
     </repositories>
 
