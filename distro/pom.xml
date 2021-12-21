@@ -283,6 +283,15 @@
                 <updatePolicy>never</updatePolicy>
             </snapshots>
         </repository>
+	    
+	     <repository>
+		<id>github</id>
+		<name>GitHub Maven Packages</name>
+		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
+		<releases><enabled>true</enabled></releases>
+		<snapshots><enabled>true</enabled></snapshots>
+	    </repository>
+	    
         <repository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
@@ -349,7 +358,7 @@
                 <updatePolicy>interval:10080</updatePolicy>
             </releases>
         </repository>
-       <repository>
+<!--        <repository>
            <id>repo.mybahmni.org</id>
            <name>bahmni-artifactory-snapshots</name>
            <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
@@ -361,14 +370,8 @@
           <id>repo.mybahmni.org-release</id>
           <name>bahmni-artifactory-release</name>
           <url>https://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
-      </repository>
-	     <repository>
-		<id>github</id>
-		<name>GitHub Maven Packages</name>
-		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
-		<releases><enabled>true</enabled></releases>
-		<snapshots><enabled>true</enabled></snapshots>
-	    </repository>
+      </repository> -->
+	    
 	    
     </repositories>
 
