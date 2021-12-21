@@ -28,7 +28,7 @@ jobs:
     
     - name: Build with Maven
       run: |
-        mvn clean install -T2 -U
+        sudo mvn clean install -T2 -U
      
     - name: Upload artifacts 
       uses: actions/upload-artifact@v2
