@@ -269,24 +269,10 @@
     </pluginRepositories>
 
     <repositories>
-	    <repository>
-           <id>repo.mybahmni.org</id>
-           <name>bahmni-artifactory-snapshots</name>
-           <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
-           <snapshots>
-               <updatePolicy>always</updatePolicy>
-           </snapshots>
-       </repository>
-       <repository>
-          <id>repo.mybahmni.org-release</id>
-          <name>bahmni-artifactory-release</name>
-          <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
-      </repository>
-	    
         <repository>
             <id>rubygems-proxy</id>
             <name>Rubygems Proxy</name>
-            <url>https://rubygems-proxy.torquebox.org/releases</url>
+            <url>http://rubygems-proxy.torquebox.org/releases</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -363,16 +349,19 @@
                 <updatePolicy>interval:10080</updatePolicy>
             </releases>
         </repository>
-       
-	    
-<!-- 	     <repository>
-		<id>github</id>
-		<name>GitHub Maven Packages</name>
-		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
-		<releases><enabled>true</enabled></releases>
-		<snapshots><enabled>true</enabled></snapshots>
-	    </repository> -->
-	    
+       <repository>
+           <id>repo.mybahmni.org</id>
+           <name>bahmni-artifactory-snapshots</name>
+           <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
+           <snapshots>
+               <updatePolicy>always</updatePolicy>
+           </snapshots>
+       </repository>
+       <repository>
+          <id>repo.mybahmni.org-release</id>
+          <name>bahmni-artifactory-release</name>
+          <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/release</url>
+      </repository>
     </repositories>
 
     <build>
