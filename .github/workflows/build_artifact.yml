@@ -41,8 +41,8 @@ jobs:
       run: |
        ./mvnw -B --settings ./settings.xml \
        clean install
-       -Dusername=$USERNAME \
-        -Dpassword=$PASSWORD
+       -Dusername=${{ secrets.USERNAME }}\
+        -Dpassword=${{ secrets.PASSWORD }}
      
     - name: Upload artifacts 
       uses: actions/upload-artifact@v2
