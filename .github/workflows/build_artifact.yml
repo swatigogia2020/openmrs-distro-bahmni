@@ -30,8 +30,8 @@ jobs:
                  <activeProfile>github</activeProfile>
               </activeProfiles>
               <id>1-bahmni-core</id>
-              <username>${username}</username>
-              <password>${password}</password>
+              <username>${env.username}</username>
+              <password>${env.password}</password>
             </server>
           </servers>
         </settings>
@@ -40,9 +40,11 @@ jobs:
     - name: Build with Maven
       run: |
        ./mvnw -B --settings ./settings.xml \
-       clean install
-       -Dusername=${{ secrets.USERNAME }}\
-        -Dpassword=${{ secrets.PASSWORD }}
+       clean install -U
+      env:
+        USER_NAME: ${{ secrets.USERNAME }}
+        ACCESS_TOKEN: ${{ secrets.PASSWORD }}
+       
      
     - name: Upload artifacts 
       uses: actions/upload-artifact@v2
