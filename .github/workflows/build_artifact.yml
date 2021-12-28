@@ -24,11 +24,11 @@ jobs:
       run: |
         cat <<EOT >> settings.xml
         <settings>
+         <activeProfiles>
+             <activeProfile>github</activeProfile>
+          </activeProfiles>
           <servers>
             <server>
-              <activeProfiles>
-                 <activeProfile>github</activeProfile>
-              </activeProfiles>
               <id>1-bahmni-core</id>
               <username>${env.USER_NAME}</username>
               <password>${env.ACCESS_TOKEN}</password>
