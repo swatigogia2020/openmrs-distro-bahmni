@@ -26,7 +26,7 @@ jobs:
         <settings>
           <servers>
             <server>
-              <id>1-bahmni-core</id>
+              <id>github</id>
               <username>${user_name}</username>
               <password>${access_token}</password>
             </server>
