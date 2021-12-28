@@ -11,7 +11,7 @@
             <repositories>
                 <repository>
                     <id>github</id>
-                    <url>https://maven.pkg.github.com/bahmni/bahmni-core</url>
+                    <url>https://maven.pkg.github.com/Bahmni/bahmni-core</url>
                     <snapshots>
                         <enabled>true</enabled>
                     </snapshots>
