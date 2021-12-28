@@ -34,7 +34,7 @@
 	   <repository>
 		<id>github</id>
 		<name>github packages</name>
-		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
+		<url>https://maven.pkg.github.com/Bahmni/bahmni-core</url>
 		<snapshots>
                 	<enabled>true</enabled>
                 </snapshots>
