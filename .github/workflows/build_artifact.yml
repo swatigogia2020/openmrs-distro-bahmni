@@ -36,10 +36,9 @@ jobs:
 
     - name: Build with Maven
       run: |
-       ./mvnw -s ./settings.xml \
-        -B clean install \
-        -Duser_name= $USER_NAME \
-        -Daccess_token= $ACCESS_TOKEN
+       ./mvnw -s ./settings.xml -B clean install \
+          -Duser_name= $USER_NAME \
+          -Daccess_token= $ACCESS_TOKEN
       env:
        USER_NAME: ${{ secrets.USERNAME }}
        ACCESS_TOKEN: ${{ secrets.PASSWORD }}
