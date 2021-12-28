@@ -34,7 +34,7 @@
 	   <repository>
 		<id>1-bahmni-core</id>
 		<name>bahmni-core-snapshot</name>
-		<url>https://maven.pkg.github.com/swatigogia2020/bahmni-core</url>
+		<url>https://maven.pkg.github.com/Bahmni/bahmni-core</url>
 	   </repository>
         <repository>
             <id>sonatype-nexus-snapshots</id>
