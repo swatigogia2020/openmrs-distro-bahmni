@@ -30,8 +30,8 @@ jobs:
                  <activeProfile>github</activeProfile>
               </activeProfiles>
               <id>1-bahmni-core</id>
-              <username>${env.username}</username>
-              <password>${env.password}</password>
+              <username>${env.USER_NAME}</username>
+              <password>${env.ACCESS_TOKEN}</password>
             </server>
           </servers>
         </settings>
