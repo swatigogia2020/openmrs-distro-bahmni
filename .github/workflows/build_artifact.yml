@@ -26,6 +26,9 @@ jobs:
         <settings>
           <servers>
             <server>
+              <activeProfiles>
+                 <activeProfile>github</activeProfile>
+              </activeProfiles>
               <id>1-bahmni-core</id>
               <username>${username}</username>
               <password>${password}</password>
