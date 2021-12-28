@@ -44,7 +44,7 @@
                 <enabled>false</enabled>
             </releases>
             <snapshots>
-                <enabled>true</enabled>g
+                <enabled>true</enabled>
             </snapshots>
         </repository>
 		<repository>
