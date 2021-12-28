@@ -20,20 +20,7 @@ jobs:
       with:
         java-version: 1.8
         
-    - name: Create maven settings.xml
-      run: |
-        cat <<EOT >> settings.xml
-        <settings>
-          <servers>
-            <server>
-              <id>github</id>
-              <username>${user_name}</username>
-              <password>${access_token}</password>
-            </server>
-          </servers>
-        </settings>
-        EOT
-
+    
     - name: Build with Maven
       run: |
         ./mvnw -s $GITHUB_WORKSPACE/.github/workflows/settings.xml clean install
