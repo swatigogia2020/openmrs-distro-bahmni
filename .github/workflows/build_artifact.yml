@@ -24,9 +24,6 @@ jobs:
       run: |
         cat <<EOT >> settings.xml
         <settings>
-         <activeProfiles>
-             <activeProfile>github</activeProfile>
-          </activeProfiles>
           <servers>
             <server>
               <id>1-bahmni-core</id>
@@ -39,7 +36,7 @@ jobs:
 
     - name: Build with Maven
       run: |
-       ./mvnw --settings ./settings.xml \
+       ./mvnw -s ./settings.xml \
         -B clean install \
         -Duser_name= $USER_NAME \
         -Daccess_token= $ACCESS_TOKEN
